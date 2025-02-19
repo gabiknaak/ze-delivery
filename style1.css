@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(250, 195, 16);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+  width: 340px;
+  height: 340px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  width: 300px;
+}
+
+.botoes button {
+  background-color: rgb(26, 25, 25);
+  color: rgb(250, 195, 16);
+  font-size: 18px;
+  padding: 15px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-left: 80px;
+}
+
+.botoes button:hover {
+  background-color: #444;
+}
